@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title Grabber</title>
+    <style>
+      
+      body {
+        body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        
+        padding: 20px;
+        margin: 0;
+        width: 250px;
+        box-sizing: border-box;
+      }
+      }
+
+      
+      .container {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 300px; 
+      }
+
+      
+      h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color:black;
+      }
+
+      button {
+        background-color: #ffffff;
+        color: #4CAF50;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      
+      button:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      
+      p {
+        margin-top: 20px;
+        font-size: 18px;
+        color: black;
+        word-wrap: break-word;
+        font-weight: bold;
+      }
+
+      
+      button:active {
+        transform: scale(0.98);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Get Tab Title</h1>
+      <button id="get-title">Click Me</button>
+      <p id="title"></p>
+    </div>
+    
+    <script src="pop.js"></script>
+  </body>
+</html>
